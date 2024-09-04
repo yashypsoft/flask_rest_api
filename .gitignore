@@ -1,0 +1,77 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+venv.bak/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# pytype
+.pytype/
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+pytest.xml
+test_*.xml
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+Dockerfile*
+*.dockerignore
+
+# Helm
+charts/
+*.tgz
